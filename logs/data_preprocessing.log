@@ -1,0 +1,60 @@
+2026-03-27 15:08:30,173 - data_preprocessing - DEBUG - Data loaded properly
+2026-03-27 15:08:30,174 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-03-27 15:08:30,176 - data_preprocessing - DEBUG - Target column encoded
+2026-03-27 15:08:30,182 - data_preprocessing - DEBUG - Duplicates removed
+2026-03-27 15:08:30,185 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource 'punkt_tab' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'tokenizers/punkt_tab/english/'
+
+  Searched in:
+    - 'C:\\Users\\ratha/nltk_data'
+    - 'C:\\Users\\ratha\\AppData\\Local\\Programs\\Python\\Python310\\nltk_data'
+    - 'C:\\Users\\ratha\\AppData\\Local\\Programs\\Python\\Python310\\share\\nltk_data'
+    - 'C:\\Users\\ratha\\AppData\\Local\\Programs\\Python\\Python310\\lib\\nltk_data'
+    - 'C:\\Users\\ratha\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-27 15:08:30,202 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource 'punkt_tab' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'tokenizers/punkt_tab/english/'
+
+  Searched in:
+    - 'C:\\Users\\ratha/nltk_data'
+    - 'C:\\Users\\ratha\\AppData\\Local\\Programs\\Python\\Python310\\nltk_data'
+    - 'C:\\Users\\ratha\\AppData\\Local\\Programs\\Python\\Python310\\share\\nltk_data'
+    - 'C:\\Users\\ratha\\AppData\\Local\\Programs\\Python\\Python310\\lib\\nltk_data'
+    - 'C:\\Users\\ratha\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-27 15:10:37,366 - data_preprocessing - DEBUG - Data loaded properly
+2026-03-27 15:10:37,366 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-03-27 15:10:37,369 - data_preprocessing - DEBUG - Target column encoded
+2026-03-27 15:10:37,372 - data_preprocessing - DEBUG - Duplicates removed
+2026-03-27 15:11:29,197 - data_preprocessing - DEBUG - Text column transformed
+2026-03-27 15:11:29,198 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-03-27 15:11:29,199 - data_preprocessing - DEBUG - Target column encoded
+2026-03-27 15:11:29,201 - data_preprocessing - DEBUG - Duplicates removed
+2026-03-27 15:11:41,866 - data_preprocessing - DEBUG - Text column transformed
+2026-03-27 15:11:41,897 - data_preprocessing - DEBUG - Processed data saved to ./data\interim
