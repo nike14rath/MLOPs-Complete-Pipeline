@@ -11,3 +11,13 @@
 2026-03-28 09:46:56,503 - feature_engineering - DEBUG - tfidf applied and data transformed
 2026-03-28 09:46:56,602 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
 2026-03-28 09:46:56,640 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2026-03-28 10:03:56,241 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-03-28 10:03:56,284 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-03-28 10:03:56,399 - feature_engineering - DEBUG - tfidf applied and data transformed
+2026-03-28 10:03:56,504 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-03-28 10:03:56,528 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2026-03-28 10:06:51,939 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-03-28 10:06:51,942 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-03-28 10:06:52,010 - feature_engineering - DEBUG - tfidf applied and data transformed
+2026-03-28 10:06:52,121 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-03-28 10:06:52,138 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
