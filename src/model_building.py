@@ -126,7 +126,7 @@ def main():
         X_train = train_data.iloc[:, :-1].values
         y_train = train_data.iloc[:, -1].values
 
-        clf = train_model(X_train, y_train, params)
+        clf = train_model(X_train, y_train, params)# type: ignore
         
         model_save_path = 'models/model.pkl'
         save_model(clf, model_save_path)
